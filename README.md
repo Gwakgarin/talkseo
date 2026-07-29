@@ -79,6 +79,7 @@ Xcode에서 시뮬레이터를 선택해 실행합니다. 백엔드 API 주소�
 
 ### 독서 타이머
 <img width="280" height="611" alt="스크린샷 2026-07-29 오후 10 37 32" src="https://github.com/user-attachments/assets/0ef6acb6-3fc8-4b21-94fc-9cc88a9ab6a4" />
+<img width="529" height="581" alt="스크린샷 2026-07-29 오후 10 41 29" src="https://github.com/user-attachments/assets/e744307f-c963-40ec-92f4-6ca613160c6d" />
 
 
 ### 도서 상세
