@@ -1,4 +1,4 @@
-# TALKSEO (톡서)
+<img width="280" height="613" alt="스크린샷 2026-07-29 오후 10 38 06" src="https://github.com/user-attachments/assets/c1cbf419-c1c5-440e-9573-a8bb3537fdd6" /># TALKSEO (톡서)
 
 ## 소개
 
@@ -70,21 +70,20 @@ Xcode에서 시뮬레이터를 선택해 실행합니다. 백엔드 API 주소�
 ## 화면 미리보기
 
 ### 스플래시
+<img width="339" height="734" alt="스크린샷 2026-07-29 오후 10 35 48" src="https://github.com/user-attachments/assets/3dee0a98-eb2d-4a4b-81df-ad04dc7636e9" />
 
 
 ### 로그인 / 회원가입
+<img width="794" height="866" alt="스크린샷 2026-07-29 오후 10 36 57" src="https://github.com/user-attachments/assets/5b781d20-150e-48ec-a5c6-cdd8f2f2b577" />
 
 
 ### 독서 타이머
+<img width="280" height="611" alt="스크린샷 2026-07-29 오후 10 37 32" src="https://github.com/user-attachments/assets/0ef6acb6-3fc8-4b21-94fc-9cc88a9ab6a4" />
 
 
 ### 도서 상세
-
-
-### 커뮤니티
-
-
-### 마이페이지
+<img width="520" height="566" alt="스크린샷 2026-07-29 오후 10 38 33" src="https://github.com/user-attachments/assets/137d888e-ddb1-41a5-8524-97ba972e321b" />
+<img width="520" height="569" alt="스크린샷 2026-07-29 오후 10 38 52" src="https://github.com/user-attachments/assets/1cf4d03f-f708-4567-a293-6e45771ec446" />
 
 
 ## 팀원 및 역할
