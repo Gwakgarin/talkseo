@@ -1,4 +1,4 @@
-<img width="280" height="613" alt="스크린샷 2026-07-29 오후 10 38 06" src="https://github.com/user-attachments/assets/c1cbf419-c1c5-440e-9573-a8bb3537fdd6" /># TALKSEO (톡서)
+# TALKSEO (톡서)
 
 ## 소개
 
@@ -70,7 +70,7 @@ Xcode에서 시뮬레이터를 선택해 실행합니다. 백엔드 API 주소�
 ## 화면 미리보기
 
 ### 스플래시
-<img width="339" height="734" alt="스크린샷 2026-07-29 오후 10 35 48" src="https://github.com/user-attachments/assets/3dee0a98-eb2d-4a4b-81df-ad04dc7636e9" />
+<img width="265" height="580" alt="스크린샷 2026-07-29 오후 10 40 33" src="https://github.com/user-attachments/assets/8316092a-bb9e-487e-9ceb-9f8c71d4d142" />
 
 
 ### 로그인 / 회원가입
