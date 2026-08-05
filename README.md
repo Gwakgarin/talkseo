@@ -111,6 +111,12 @@ erDiagram
     COMMUNITY_POST ||--o{ POST_COMMENT : ""
     COMMUNITY_POST ||--o{ POST_IMAGE : ""
     COMMUNITY_POST ||--o{ POST_LIKE : ""
+    COMMUNITY_POST ||--o{ REPORT : "target(1)"
+
+    POST_COMMENT ||--o{ POST_COMMENT : "대댓글"
+    POST_COMMENT ||--o{ REPORT : "target(2)"
+
+    REVIEW ||--o{ REPORT : "target(0)"
 
     USERS {
         int user_id PK
@@ -231,16 +237,26 @@ Xcode에서 시뮬레이터를 선택해 실행합니다. 백엔드 API 주소�
 
 ## 📡 주요 API
 
-| 분류 | 파일 | 설명 |
+`Php/` 폴더의 각 파일이 하나의 엔드포인트입니다 (예: `login.php` → `POST /Php/login.php`).
+
+| Method | Endpoint | 설명 |
 |---|---|---|
-| 인증 | `login.php` / `signup.php` / `chekId.php` | 로그인 · 회원가입 · 아이디 중복 확인 |
-| 도서 | `book.php` / `book_detail.php` | 도서 목록/검색 · 도서 상세 |
-| 독서 세션 | `start_session.php` / `end_session.php` / `save_session.php` / `get_session.php` | 독서 타이머 세션 시작/종료/저장/조회 |
-| 독서 기록 | `insert_user_book.php` / `record_books.php` / `complete_book.php` / `get_completed_books.php` | 사용자별 독서 상태 및 완독 기록 관리 |
-| 감상평 | `review_save.php` / `review_list.php` / `review_like.php` | 감상평 작성 · 목록 · 좋아요 |
-| 커뮤니티 | `comu.php` / `comu_write.php` / `comudetail.php` / `comu_update.php` | 글 작성 · 상세 · 수정 |
-| 커뮤니티 댓글 | `comu_comment_insert.php` / `comu_comment_delete.php` / `comu_like.php` | 댓글 작성/삭제 · 좋아요 |
-| 마이페이지 | `profile.php` / `get_user_info.php` / `my_page.php` | 프로필 및 사용자 정보 관리 |
+| POST | `login.php` | 로그인 (id, password 확인) |
+| POST | `signup.php` | 회원가입 |
+| POST | `book.php` | 도서 목록/검색 |
+| POST | `book_detail.php` | 도서 상세 |
+| GET | `start_session.php` | 독서 세션 시작 |
+| GET | `end_session.php` | 독서 세션 종료 |
+| GET | `save_session.php` | 독서 세션 저장 |
+| GET | `get_session.php` | 독서 세션 조회 |
+| GET/POST | `insert_user_book.php` | 사용자 도서 상태 등록 |
+| GET | `record_books.php` / `complete_book.php` / `get_completed_books.php` | 독서 기록 조회 · 완독 처리 · 완독 목록 |
+| POST | `review_save.php` / `review_list.php` / `review_like.php` | 감상평 작성 · 목록 · 좋아요 |
+| POST | `comu.php` / `comu_write.php` / `comudetail.php` / `comu_update.php` | 커뮤니티 글 목록 · 작성 · 상세 · 수정 |
+| POST | `comu_comment_insert.php` / `comu_comment_delete.php` / `comu_like.php` | 댓글 작성/삭제 · 좋아요 |
+| GET | `profile.php` / `get_user_info.php` / `my_page.php` | 프로필 및 사용자 정보 관리 |
+
+> `chekId.php`는 코드상 `login.php`와 동일하게 id+password를 확인하는 로직이라 표에서 제외했습니다.
 
 ## 📚 문서
 
