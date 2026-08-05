@@ -1,3 +1,5 @@
+<div align="center">
+
 # 📚 TALKSEO (톡서)
 
 **읽은 책이 쌓이는 기록, 함께 나누는 독서 습관**
@@ -8,6 +10,8 @@
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-0d6efd?style=flat&logo=swift&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+
+</div>
 
 ## ✨ TALKSEO란?
 
@@ -27,22 +31,22 @@
 
 ## 📱 화면 미리보기
 
-### 스플래시
-<img width="265" height="580" alt="스크린샷 2026-07-29 오후 10 40 33" src="https://github.com/user-attachments/assets/8316092a-bb9e-487e-9ceb-9f8c71d4d142" />
-
-
-### 로그인 / 회원가입
-<img width="794" height="866" alt="스크린샷 2026-07-29 오후 10 36 57" src="https://github.com/user-attachments/assets/5b781d20-150e-48ec-a5c6-cdd8f2f2b577" />
-
-
-### 독서 타이머
-<img width="280" height="611" alt="스크린샷 2026-07-29 오후 10 37 32" src="https://github.com/user-attachments/assets/0ef6acb6-3fc8-4b21-94fc-9cc88a9ab6a4" />
-<img width="529" height="581" alt="스크린샷 2026-07-29 오후 10 41 29" src="https://github.com/user-attachments/assets/e744307f-c963-40ec-92f4-6ca613160c6d" />
-
-
-### 도서 상세
-<img width="520" height="566" alt="스크린샷 2026-07-29 오후 10 38 33" src="https://github.com/user-attachments/assets/137d888e-ddb1-41a5-8524-97ba972e321b" />
-<img width="520" height="569" alt="스크린샷 2026-07-29 오후 10 38 52" src="https://github.com/user-attachments/assets/1cf4d03f-f708-4567-a293-6e45771ec446" />
+<div align="center">
+<table>
+<tr>
+<td align="center" width="180"><img src="screenshots/splash.png" width="160"/><br/><sub><b>스플래시</b></sub></td>
+<td align="center" width="180"><img src="screenshots/login.png" width="160"/><br/><sub><b>로그인</b></sub></td>
+<td align="center" width="180"><img src="screenshots/signup.png" width="160"/><br/><sub><b>회원가입</b></sub></td>
+<td align="center" width="180"><img src="screenshots/timer.png" width="160"/><br/><sub><b>독서 타이머</b></sub></td>
+</tr>
+<tr>
+<td align="center" width="180"><img src="screenshots/detail.png" width="160"/><br/><sub><b>도서 상세</b></sub></td>
+<td align="center" width="180"><img src="screenshots/community.png" width="160"/><br/><sub><b>커뮤니티</b></sub></td>
+<td align="center" width="180"><img src="screenshots/mypage.png" width="160"/><br/><sub><b>마이페이지</b></sub></td>
+<td width="180"></td>
+</tr>
+</table>
+</div>
 
 
 ## 🧑‍🤝‍🧑 팀원 및 역할
