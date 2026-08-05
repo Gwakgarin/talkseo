@@ -40,10 +40,10 @@
 <td align="center" width="180"><img src="screenshots/timer.png" width="160"/><br/><sub><b>독서 타이머</b></sub></td>
 </tr>
 <tr>
+<td align="center" width="180"><img src="screenshots/timer_running.png" width="160"/><br/><sub><b>타이머 진행 중</b></sub></td>
 <td align="center" width="180"><img src="screenshots/detail.png" width="160"/><br/><sub><b>도서 상세</b></sub></td>
 <td align="center" width="180"><img src="screenshots/community.png" width="160"/><br/><sub><b>커뮤니티</b></sub></td>
 <td align="center" width="180"><img src="screenshots/mypage.png" width="160"/><br/><sub><b>마이페이지</b></sub></td>
-<td width="180"></td>
 </tr>
 </table>
 </div>
